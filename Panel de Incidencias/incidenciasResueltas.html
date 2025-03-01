@@ -59,8 +59,9 @@
         </div>
     </div>
     <!-- Tabla de Incidencias -->
+<!-- Tabla de Incidencias Resueltas -->
 <div class="table-responsive mx-auto w-75 mt-5">
-    <h3 class="text-center mb-3">Lista de Incidencias en Progreso</h3>
+    <h3 class="text-center mb-3">Incidencias Resueltas</h3>
     <table class="table table-striped">
         <thead class="table-primary">
             <tr>
@@ -68,115 +69,48 @@
                 <th>Título</th>
                 <th>Aula</th>
                 <th>Estado</th>
-                <th>Encargado</th>
                 <th>Imagen</th>
-                <th>Interacciones</th>
+                <th>Encargado</th>
             </tr>
         </thead>
         <tbody>
             <tr class="align-middle">
-                <td class="text-center">A2</td>
-                <td>Fuente de alimentación equipo TN-26</td>
-                <td>9A</td>
-                <td>En reparación</td>
-                <td>@nombreProfesorLogeado</td>
-                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="fuente_alimentacion_m"><img src="img/xs/fuente_alimentacion_xs.jpg" class="img-fluid" alt=""></a></td>
-                <td>
-                    <button class="btn btn-warning btn-sm">Soltar incidencia</button>
-                </td>
+                <td class="text-center">A1</td>
+                <td>HDMI Perdido</td>
+                <td>9C</td>
+                <td>Solucionado</td>
+                <td>@nombreProfesorReparacion</td>
+                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="hdmi_perdido_m"><img src="img/xs/hdmi_perdido_xs.jpg" class="img-fluid" alt=""></a></td>
             </tr>
             <tr class="align-middle">
-                <td class="text-center">A3</td>
-                <td>Pantalla del Equipo TN-9</td>
-                <td>9B</td>
-                <td>Pendiente de revisión</td>
-                <td>Sin Asignación</td>
-                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="pantalla_rota_m"><img src="img/xs/pantalla_rota_xs.jpg" class="img-fluid" alt=""></a></td>
-                <td>
-                    <button class="btn btn-success btn-sm">Reparar Incidencia</button>
-                </td>
+                <td class="text-center">A5</td>
+                <td>Proyector sin imagen</td>
+                <td>10A</td>
+                <td>Solucionado</td>
+                <td>@nombreProfesorReparacion</td>
+                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="proyector_sin_imagen_m"><img src="img/xs/proyector_sin_imagen_xs.jpg" class="img-fluid" alt=""></a></td>
             </tr>
             <tr class="align-middle">
-                <td class="text-center">A4</td>
-                <td>Teclado con teclas dañadas</td>
-                <td>9D</td>
-                <td>Pendiente de revisión</td>
-                <td>Sin Asignación</td>
-                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="teclado_danado_m"><img src="img/xs/teclado_danado_xs.jpg" class="img-fluid" alt=""></a></td>
-                <td>
-                    <button class="btn btn-success btn-sm">Reparar Incidencia</button>
-                </td>
+                <td class="text-center">A8</td>
+                <td>Altavoces sin sonido</td>
+                <td>11A</td>
+                <td>Solucionado</td>
+                <td>@nombreProfesorReparacion</td>
+                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="altavoces_sin_sonido_m"><img src="img/xs/altavoces_sin_sonido_xs.jpg" class="img-fluid" alt=""></a></td>
             </tr>
             <tr class="align-middle">
-                <td class="text-center">A6</td>
-                <td>Ratón inalámbrico extraviado</td>
-                <td>10B</td>
-                <td>Pendiente de revisión</td>
-                <td>Sin Asignación</td>
-                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="raton_perdido_m"><img src="img/xs/raton_perdido_xs.jpg" class="img-fluid" alt=""></a></td>
-                <td>
-                    <button class="btn btn-success btn-sm">Reparar Incidencia</button>
-                </td>
-            </tr>
-            <tr class="align-middle">
-                <td class="text-center">A7</td>
-                <td>CPU con sobrecalentamiento</td>
-                <td>10C</td>
-                <td>En reparación</td>
-                <td>@nombreEncargado</td>
-                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="cpu_sobrecalentada_m"><img src="img/xs/cpu_sobrecalentada_xs.jpg" class="img-fluid" alt=""></a></td>
-                <td>
-                    <button class="btn btn-warning btn-sm" disabled>Soltar incidencia</button>
-                </td>
-            </tr>
-            <tr class="align-middle">
-                <td class="text-center">A9</td>
-                <td>Impresora sin tinta</td>
-                <td>11B</td>
-                <td>Pendiente de revisión</td>
-                <td>Sin Asignación</td>
-                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="impresora_sin_tinta_m"><img src="img/xs/impresora_sin_tinta_xs.jpg" class="img-fluid" alt=""></a></td>
-                <td>
-                    <button class="btn btn-success btn-sm">Reparar Incidencia</button>
-                </td>
-            </tr>
-            <tr class="align-middle">
-                <td class="text-center">A10</td>
-                <td>Cable de red roto</td>
-                <td>11C</td>
-                <td>En reparación</td>
-                <td>@nombreProfesorLogeado</td>
-                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="cable_red_roto_m"><img src="img/xs/cable_red_roto_xs.jpg" class="img-fluid" alt=""></a></td>
-                <td>
-                    <button class="btn btn-warning btn-sm">Soltar incidencia</button>
-                </td>
-            </tr>
-            <tr class="align-middle">
-                <td class="text-center">A11</td>
-                <td>Monitor con parpadeo</td>
-                <td>12A</td>
-                <td>Pendiente de revisión</td>
-                <td>Sin Asignación</td>
-                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="monitor_parpadeo_m"><img src="img/xs/monitor_parpadeo_xs.jpg" class="img-fluid" alt=""></a></td>
-                <td>
-                    <button class="btn btn-success btn-sm">Reparar Incidencia</button>
-                </td>
-            </tr>
-            <tr class="align-middle">
-                <td class="text-center">A12</td>
-                <td>Micrófono no funciona</td>
-                <td>12B</td>
-                <td>En reparación</td>
-                <td>@nombreEncargado</td>
-                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="microfono_no_funciona_m"><img src="img/xs/microfono_no_funciona_xs.jpg" class="img-fluid" alt=""></a></td>
-                <td>
-                    <button class="btn btn-warning btn-sm" disabled>Soltar incidencia</button>
-                </td>
+                <td class="text-center">A13</td>
+                <td>Conexión WiFi inestable</td>
+                <td>12C</td>
+                <td>Solucionado</td>
+                <td>@nombreProfesorReparacion</td>
+                <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="wifi_inestable_m"><img src="img/xs/wifi_inestable_xs.jpg" class="img-fluid" alt=""></a></td>
             </tr>
         </tbody>
     </table>
     <p class="text-muted mt-4">Listado Actualizado a día 01/03/2025</p>
 </div>
+
 
     <!-- FOOTER -->
     <footer class="container-xl border-top mt-5 pt-5">
