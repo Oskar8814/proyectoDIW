@@ -62,15 +62,23 @@
 <!-- Tabla de Incidencias Resueltas -->
 <div class="table-responsive mx-auto w-75 mt-5">
     <h3 class="text-center mb-3">Incidencias Resueltas</h3>
-    <table class="table table-striped">
+    <!-- Buscador -->
+    <div class="container w-50">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Titulo de la incidencia" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+    </div>
+    
+    <table class="table table-striped mt-3">
         <thead class="table-primary">
             <tr>
                 <th>Identificador</th>
                 <th>Título</th>
                 <th>Aula</th>
                 <th>Estado</th>
-                <th>Imagen</th>
                 <th>Encargado</th>
+                <th>Imagen</th>
             </tr>
         </thead>
         <tbody>

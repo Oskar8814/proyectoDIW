@@ -61,7 +61,14 @@
     <!-- Tabla de Incidencias -->
 <div class="table-responsive mx-auto w-75 mt-5">
     <h3 class="text-center mb-3">Lista de Incidencias en Progreso</h3>
-    <table class="table table-striped">
+        <!-- Buscador -->
+        <div class="container w-50">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Titulo de la incidencia" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+    <table class="table table-striped mt-3">
         <thead class="table-primary">
             <tr>
                 <th>Identificador</th>
@@ -70,7 +77,8 @@
                 <th>Estado</th>
                 <th>Encargado</th>
                 <th>Imagen</th>
-                <th>Interacciones</th>
+                <th colspan="2" class="text-center">Interacciones</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -83,8 +91,8 @@
                 <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="fuente_alimentacion_m"><img src="img/xs/fuente_alimentacion_xs.jpg" class="img-fluid" alt=""></a></td>
                 <td>
                     <button class="btn btn-warning btn-sm">Soltar incidencia</button>
-                    <button class="btn btn-outline-success btn-sm">Reparada</button>
                 </td>
+                <td><button class="btn btn-outline-success btn-sm ">Terminada</button></td>
             </tr>
             <tr class="align-middle">
                 <td class="text-center">A3</td>
@@ -96,6 +104,7 @@
                 <td>
                     <button class="btn btn-success btn-sm">Reparar Incidencia</button>
                 </td>
+                <td></td>
             </tr>
             <tr class="align-middle">
                 <td class="text-center">A4</td>
@@ -107,6 +116,7 @@
                 <td>
                     <button class="btn btn-success btn-sm">Reparar Incidencia</button>
                 </td>
+                <td></td>
             </tr>
             <tr class="align-middle">
                 <td class="text-center">A6</td>
@@ -118,6 +128,7 @@
                 <td>
                     <button class="btn btn-success btn-sm">Reparar Incidencia</button>
                 </td>
+                <td></td>
             </tr>
             <tr class="align-middle">
                 <td class="text-center">A7</td>
@@ -128,8 +139,8 @@
                 <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="cpu_sobrecalentada_m"><img src="img/xs/cpu_sobrecalentada_xs.jpg" class="img-fluid" alt=""></a></td>
                 <td>
                     <button class="btn btn-warning btn-sm" disabled>Soltar incidencia</button>
-                    
                 </td>
+                <td></td>
             </tr>
             <tr class="align-middle">
                 <td class="text-center">A9</td>
@@ -141,6 +152,7 @@
                 <td>
                     <button class="btn btn-success btn-sm">Reparar Incidencia</button>
                 </td>
+                <td></td>
             </tr>
             <tr class="align-middle">
                 <td class="text-center">A10</td>
@@ -151,8 +163,8 @@
                 <td><a href="" data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="cable_red_roto_m"><img src="img/xs/cable_red_roto_xs.jpg" class="img-fluid" alt=""></a></td>
                 <td>
                     <button class="btn btn-warning btn-sm">Soltar incidencia</button>
-                    <button class="btn btn-outline-success btn-sm">Reparada</button>
                 </td>
+                <td><button class="btn btn-outline-success btn-sm ">Terminada</button></td>
             </tr>
             <tr class="align-middle">
                 <td class="text-center">A11</td>
@@ -164,6 +176,7 @@
                 <td>
                     <button class="btn btn-success btn-sm">Reparar Incidencia</button>
                 </td>
+                <td></td>
             </tr>
             <tr class="align-middle">
                 <td class="text-center">A12</td>
@@ -175,6 +188,7 @@
                 <td>
                     <button class="btn btn-warning btn-sm" disabled>Soltar incidencia</button>
                 </td>
+                <td></td>
             </tr>
         </tbody>
     </table>
