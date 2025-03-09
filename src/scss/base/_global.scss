@@ -16,3 +16,13 @@ body{
       border: none; // Elimina los bordes internos
     }
 }
+
+.carousel-inner {
+    height: 600px; 
+}
+
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}

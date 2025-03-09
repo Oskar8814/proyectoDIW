@@ -11864,4 +11864,13 @@ body {
   border: none;
 }
 
+.carousel-inner {
+  height: 600px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
 /*# sourceMappingURL=customStyles.css.map */
