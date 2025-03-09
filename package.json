@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compilar": "sass --watch src/scss:build/css"
+    "compilar": "sass --watch src/scss:build/css",
+    "build:css": "purgecss --css build/css/customStyles.css --content *.html --output build/css/customStyles.min.css"
   },
   "author": "Oscar Garcia",
   "license": "ISC",
   "devDependencies": {
     "bootstrap": "^5.3.3",
+    "purgecss": "^7.0.2",
     "sass": "^1.85.1"
   }
 }
