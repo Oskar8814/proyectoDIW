@@ -1,0 +1,16 @@
+{
+  "name": "incidenciasinformaticas",
+  "version": "1.0.0",
+  "description": "Gestion de incidencias informaticas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilar": "sass --watch src/scss:build/css"
+  },
+  "author": "Oscar Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.85.1"
+  }
+}

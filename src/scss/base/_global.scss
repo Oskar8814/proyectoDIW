@@ -1,0 +1,18 @@
+@use '../custom' as v;
+
+.text-amarillo{
+    color:v.$amarillo;
+}
+
+body{
+    font-family: v.$main-font;
+}
+
+.table-custom {
+    border: 1px solid v.$gris; // Borde exterior
+    border-collapse: collapse;
+
+    th, td {
+      border: none; // Elimina los bordes internos
+    }
+}

@@ -1,0 +1,36 @@
+@use 'sass:color';
+
+//Variables
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat-Regular.ttf);
+}
+//Fuentes
+$main-font: 'Montserrat', sans-serif;
+
+//reescribir variables Bootstrap
+$azul: #154c79;
+$verde: #2b734c;
+$oscuro: #212121;
+$gris:#b5b5b5b5;
+$amarillo: #ebbe75;
+$amarilloOscuro: #fab443;
+$rojo:#8e0303;
+
+//asignar paleta de colores a las variables propias de Bootstrap
+$primary: $azul;
+$dark: $oscuro;
+$danger:$rojo;
+$success:$verde;
+$warning:$amarilloOscuro;
+
+//Tipografía
+$display-font-weight: 900;
+$heading-font-weight:700;
+
+//Nav links
+$nav-link-color:$gris;
+$nav-link-hover-color: color.scale($gris,$lightness:-40%);
+
+//Importar BS5 de NodeModules
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
