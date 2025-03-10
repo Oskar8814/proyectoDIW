@@ -25,3 +25,23 @@ body{
     object-fit: cover;
     height: 100%;
 }
+
+h1 {
+    font-size: v.$tamano-h1;
+}
+
+h2 {
+    font-size: v.$tamano-h2;
+}
+
+h3 {
+    font-size: v.$tamano-h3;
+}
+
+h4 {
+    font-size: v.$tamano-h4;
+}
+
+h5 {
+    font-size: v.$tamano-h5;
+}
